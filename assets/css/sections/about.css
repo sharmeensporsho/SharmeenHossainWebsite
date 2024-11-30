@@ -1,18 +1,65 @@
-.social-link {
+  .social-link li {
     list-style: none;
-    padding: 0.2rem;
+    padding: 0.5rem;
+  margin: 05px;
   }
   
   .social-link a {
-    font-size: 1.5rem;
-    color: #3c4858;
-    padding: 0.5rem;
+    font-size: 2rem;
+    color: #2475e2;
+    margin: 05px;
   }
   
   .social-link a:hover {
     color: #248aaa;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
   }
+  
+  .social-link a:hover {
+    color: inherit;
+    }
+    
+  .fa-envelope {
+    color: #0827ff;
+  }
+  .fa-medium { 
+      color: #00ff05;
+  }
+  .fa-youtube { 
+     color: #ff051d;
+  }
+  .fa-github { 
+     color: #000000;
+  }
+  .fa-linkedin { 
+     color: #0a7cef;
+  }
+  .fa-twitter { 
+     color: #0090ff;
+  }
+  .fa-facebook { 
+     color: #0225f2;
+  }
+  .fa-instagram { 
+     color: #f600a5;
+  }
+  .fa-mastodon { 
+     color: #662fe3;
+  }
+  
+  .btn-dark {
+    background-color: #0cf6fc;
+    color: #fcfafa;
+    border: autofill;
+    padding: 16px; 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+ }
+    
+  .btn-dark: hover {
+    background-color: #0319fb;
+}
   
   .circular-progress {
     width: 150px;
