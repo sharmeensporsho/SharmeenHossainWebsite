@@ -1,23 +1,21 @@
   .social-link li {
     list-style: none;
-    padding: 0.5rem;
-  margin: 05px;
+    padding: 0.2rem;
   }
   
   .social-link a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #2475e2;
-    margin: 05px;
   }
   
   .social-link a:hover {
     color: #248aaa;
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in;
   }
   
   .social-link a:hover {
     color: inherit;
-    }
+  }
     
   .fa-envelope {
     color: #0827ff;
@@ -50,11 +48,10 @@
   .btn-dark {
     background-color: #0cf6fc;
     color: #fcfafa;
-    border: autofill;
-    padding: 16px; 20px;
-    margin: 10px;
+    border: none;
+    padding: 20px;
     cursor: pointer;
-    transition: background-color 0.5s;
+    transition: background-color 0.3s;
  }
     
   .btn-dark: hover {
